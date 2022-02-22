@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>hexo使用</title>
-    <url>/newdimfront.github.io/2022/02/22/hexo/</url>
+    <url>/newDimFront/newDimFront-github.io.git/2022/02/22/hexo/</url>
     <content><![CDATA[<h3><span id="说明">说明</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新迪前端分享博客</span><br></pre></td></tr></table></figure>
 
 <h3><span id="创建">创建</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
@@ -23,7 +23,7 @@
   </entry>
   <entry>
     <title>JS常用代码以及规范</title>
-    <url>/newdimfront.github.io/2022/02/22/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</url>
+    <url>/newDimFront/newDimFront-github.io.git/2022/02/22/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h3><span id="1测试">1，测试</span></h3><blockquote>
 <p>测试代码</p>
 </blockquote>
