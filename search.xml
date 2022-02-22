@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JS常用代码以及规范</title>
-    <url>/2022/02/22/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</url>
-    <content><![CDATA[<h3><span id="1测试">1，测试</span></h3><blockquote>
-<p>测试代码</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;a=====&#x27;</span>, a);</span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
     <title>hexo使用</title>
-    <url>/2022/02/22/hexo/</url>
+    <url>/newdimfront.github.io/2022/02/22/hexo/</url>
     <content><![CDATA[<h3><span id="说明">说明</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新迪前端分享博客</span><br></pre></td></tr></table></figure>
 
 <h3><span id="创建">创建</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
@@ -30,5 +20,15 @@
 <h3><span id="搜索安装和配置">搜索安装和配置</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">search:</span><br><span class="line">  path: search.json</span><br><span class="line">  field: post</span><br><span class="line">  content: <span class="literal">true</span></span><br><span class="line">  format: striptags</span><br></pre></td></tr></table></figure>
 
 <h3><span id="自动化提交">自动化提交</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/newDimFront/newDimFront-github.io.git</span><br><span class="line">  branch: main</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>JS常用代码以及规范</title>
+    <url>/newdimfront.github.io/2022/02/22/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</url>
+    <content><![CDATA[<h3><span id="1测试">1，测试</span></h3><blockquote>
+<p>测试代码</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;a=====&#x27;</span>, a);</span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
 </search>
