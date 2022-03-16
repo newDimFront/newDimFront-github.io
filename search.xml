@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>PC Viewer开发实践</title>
+    <url>/newDimFront-github.io/2022/03/16/PC-Viewer%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/</url>
+    <content><![CDATA[<h4><span id="1本次开发过程">1，本次开发过程</span></h4><ul>
+<li>先做了一些基本的公用样式：重置浏览器样式如输入框、滚动条，菜单部分样式。</li>
+<li>不断补充页面的公用组件如弹出框，确认框，pops等。</li>
+<li>后来提供了页面样式后就没有完全自己写页面了，基本是抠取想要的部分（文本，排版，间距，大小）。</li>
+</ul>
+<h4><span id="2开发中遇到的问题">2，开发中遇到的问题</span></h4><ul>
+<li>对ui来说用jq做页面交互需要花大量时间，其实这点完全可以给前端写，ui只提供最基本的交互。</li>
+<li>一些带交互效果的复杂的组件如拖动条，选择框，下拉展开菜单等ui可以贴图，前端自己去实现。实际上前端大多时间也是自己去实现的。</li>
+<li>一些重复性的地方，比如新增了一级菜单，前端这边样式已经写好了，ui只用提供图片。</li>
+<li>一些自适应的样式可以交给前端处理，如弹窗在页面居中等。</li>
+</ul>
+<h4><span id="3前端需要的内容">3，前端需要的内容</span></h4><ul>
+<li>基本的页面排版，文案，图片。页面完全交给前端写还是比较耗时的。</li>
+<li>蓝湖设计图需要明确的排版间距尺寸，或者统一的排版间距标准。</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo使用</title>
     <url>/newDimFront-github.io/2022/02/22/hexo/</url>
     <content><![CDATA[<h3><span id="说明">说明</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新迪前端分享博客</span><br></pre></td></tr></table></figure>
