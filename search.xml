@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo使用</title>
-    <url>/newDimFront-github.io/2022/02/22/hexo/</url>
-    <content><![CDATA[<h3><span id="说明">说明</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新迪前端分享博客</span><br></pre></td></tr></table></figure>
-
-<h3><span id="创建">创建</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>链接: <a class="link" href="https://hexo.io/docs/writing.html">Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3><span id="运行">运行</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>链接: <a class="link" href="https://hexo.io/docs/server.html">Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3><span id="生成">生成</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>链接: <a class="link" href="https://hexo.io/docs/generating.html">Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3><span id="一键部署">一键部署</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<h3><span id="主题配置">主题配置</span></h3><p>链接: <a class="link" href="https://keep-docs.xpoet.cn/usage-tutorial/configuration-guide.html#base-info">themes-keep<i class="fas fa-external-link-alt"></i></a></p>
-<h3><span id="搜索安装和配置">搜索安装和配置</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">search:</span><br><span class="line">  path: search.json</span><br><span class="line">  field: post</span><br><span class="line">  content: <span class="literal">true</span></span><br><span class="line">  format: striptags</span><br></pre></td></tr></table></figure>
-
-<h3><span id="自动化提交">自动化提交</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/newDimFront/newDimFront-github.io.git</span><br><span class="line">  branch: main</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
     <title>PC Viewer开发实践</title>
     <url>/newDimFront-github.io/2022/03/16/PC-Viewer%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/</url>
     <content><![CDATA[<h4><span id="1本次开发过程">1，本次开发过程</span></h4><ul>
@@ -150,5 +129,26 @@
 <li>结合实际场景整理代码组件思路</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hexo使用</title>
+    <url>/newDimFront-github.io/2022/02/22/hexo/</url>
+    <content><![CDATA[<h3><span id="说明">说明</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新迪前端分享博客</span><br></pre></td></tr></table></figure>
+
+<h3><span id="创建">创建</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>链接: <a class="link" href="https://hexo.io/docs/writing.html">Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3><span id="运行">运行</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>链接: <a class="link" href="https://hexo.io/docs/server.html">Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3><span id="生成">生成</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>链接: <a class="link" href="https://hexo.io/docs/generating.html">Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3><span id="一键部署">一键部署</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h3><span id="主题配置">主题配置</span></h3><p>链接: <a class="link" href="https://keep-docs.xpoet.cn/usage-tutorial/configuration-guide.html#base-info">themes-keep<i class="fas fa-external-link-alt"></i></a></p>
+<h3><span id="搜索安装和配置">搜索安装和配置</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">search:</span><br><span class="line">  path: search.json</span><br><span class="line">  field: post</span><br><span class="line">  content: <span class="literal">true</span></span><br><span class="line">  format: striptags</span><br></pre></td></tr></table></figure>
+
+<h3><span id="自动化提交">自动化提交</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">// 在_config.yml中配置</span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/newDimFront/newDimFront-github.io.git</span><br><span class="line">  branch: main</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
